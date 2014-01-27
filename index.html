@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+<head>
+  <title>Todos</title>
+ 
+  <link rel="stylesheet" href="dist/RyggradTodos.css" type="text/css" charset="utf-8">
+  <script src="dist/RyggradTodos-full.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      return new RyggradTodos({
+        el: $('#todosapp')
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="todosapp"></div>
+</body>
+</html>
